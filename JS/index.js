@@ -5,10 +5,9 @@ function renderMinorProjects () {
     renderProjects.innerHTML = '';
 
     projects.forEach(project => {
-        const displayedProject = document.createElement('article');
-        displayedProject.classList.add('project-article');
-
-        displayedProject.innerHTML = `
+        const projectArticleElement = document.createElement('article');
+        projectArticleElement.classList.add('project-article');
+        projectArticleElement.innerHTML = `
         <h2 class="project-title">${project.title.mainTitle}</h2>
         <h5 class="project-sub-title">${project.title.projectTitle}</h5>
         <img src="${project.media.url}" alt="${project.media.alt}" class="project-thumbnail-img"/>
@@ -19,7 +18,13 @@ function renderMinorProjects () {
         <a href="${project.link.repo}"><button class="action-button">GITHUB REPO</button></a>
         </div>
         `;
-        renderProjects.appendChild(displayedProject);
+        renderProjects.appendChild(projectArticleElement);
+
+        projectArticleElement.addEventListener('click', (e) =>{
+            if(!e.target.closest('.action-button')){
+                window.location.href = `HTML/project-specific.html?id=${project.id}`;
+            }
+            });
     });
 }
 renderMinorProjects();

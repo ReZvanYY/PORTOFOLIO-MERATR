@@ -6,7 +6,7 @@ export const projects = [
         },
         description: {
             mainDescription: 'This is the project that I have designed and coded for the project exam 1 course in Noroff. Here I had to create a fictional client. Foodie Heaven is a mix between a blog spot and an online food receipe sharing web app. With a focus on sharing the origin story of the dish.',
-            minorDescription: 'This is project exam 1 project. A blog for a client with an interest in Food',
+            minorDescription: 'Project Exam 1: Create a blog for a client passionate about food, showcasing recipes, tips, and culinary inspiration.',
         },
         tech: {
             mainTech: `
@@ -45,7 +45,7 @@ export const projects = [
         },
         description: {
             mainDescription: 'This was the main assigment for the course semester project 1. This project is about a community science center. The clients goal for this project was to create engagement within in its community more directly for the youth of the community. The youth being children and teens between the age of 7 to 17 years old. I had to design the web app from scratch. I had to make sure that the web app was inviting for targeted audience without making it too "childish" for the older youth. ',
-            minorDescription: 'The assigment for Semester Project 1 at Noroff. About a community science center. Targeted audience is the youth between the age of 7 to 17 years old.',
+            minorDescription: 'Semester Project 1 at Noroff: Create a community science center for youth aged 7 to 17 as target audience.',
         },
         tech:{
             mainTech: `
@@ -83,7 +83,7 @@ export const projects = [
         },
         description: {
             mainDescription: 'This is the project for the cross course project 1 at Noroff. This project was about build a mock online marketplace for the company Rainy Days. Rainy Days provides jackets for all activities. Everything from mountain snow jackets to deep cave exploring jackets to every day city jackets. Specializing in durability and at a mid range price, in other words competitive prices. In this project I was able to only use HTML and vanilla CSS. I had to create the design from scratch as well.',
-            minorDescription: 'The assigment for the semester project 1 at Noroff. Mock online marketplace for the company Rainy Days.',
+            minorDescription: 'Semester Project 1 at Noroff: Create a mock online marketplace for Rainy Days, a company selling outdoor jackets.',
         },
         tech:{
             mainTech: `
