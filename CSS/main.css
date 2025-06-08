@@ -46,6 +46,7 @@ footer{
     grid-template-columns: repeat(3, 1fr);
     padding: 1rem;
     gap: 2rem;
+    cursor: pointer;
 }
 .project-article{
     display: flex;
