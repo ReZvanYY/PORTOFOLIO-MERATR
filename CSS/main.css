@@ -1,0 +1,86 @@
+body{
+    background-color: #EDEDED;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    letter-spacing: 0.05em
+}
+.nav-bar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+    width: 100%;
+    height: 4.5rem;
+    background-color: #003153;
+    border-radius: 2rem;
+}
+.nav-button{
+    width: 11.9rem;
+    height: 3rem;
+    color: white;
+    background-color: #C02C2C;
+    border: 2px solid black;
+    border-radius: 2rem;
+    font-family: 'Playfair';
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 10rem;
+    background-color: #003153;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.footer-icon{
+    width: 5.8rem;
+    height: 5.8rem;
+    cursor: pointer;
+}
+.displayed-projects-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    gap: 2rem;
+}
+.project-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 2rem;
+    background-color: #003153;
+    color: white;
+    padding: 1rem;
+}
+.project-title{
+    text-align: center;
+    font-family: 'Playfair';
+    font-size: 1.5rem;
+}
+.project-sub-title{
+    margin-top: -1rem;
+    font-family: 'Playfair';
+}
+.project-thumbnail-img{
+    width: 20rem;
+    height: 15rem;
+}
+.action-button{
+    width: 15rem;
+    margin-top: 0.5rem;
+    color: white;
+    background-color: #C02C2C;
+    border: 2px solid black;
+    border-radius: 2rem;
+    font-family: 'Playfair';
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}

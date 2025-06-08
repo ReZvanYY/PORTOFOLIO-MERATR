@@ -1,0 +1,40 @@
+.display-detailed-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 2rem;
+    background-color: #003153;
+    color: white;
+}
+.project-specific-title{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+}
+.project-specific-img{
+    width: 50%;   
+}
+.specific-interactive-buttons{
+    margin: 1rem;
+}
+.action-button{
+    width: 15rem;
+    margin-top: 0.5rem;
+    color: white;
+    background-color: #C02C2C;
+    border: 2px solid black;
+    border-radius: 2rem;
+    font-family: 'Playfair';
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    margin-top: 0.2rem;
+}
+.tech-used{
+    font-size: 1.2rem;
+}
