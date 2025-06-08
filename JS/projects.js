@@ -33,8 +33,8 @@ export const projects = [
             alt:'The logo for Foodie Heaven, used in the FED1 - Project Exam 1',
         },
         link: {
-            repo: '',
-            deploy: '',
+            repo: 'https://github.com/ReZvanYY/PE1-MERATR',
+            deploy: 'https://charming-macaron-095d38.netlify.app/',
         },
     },
     {
@@ -71,8 +71,8 @@ export const projects = [
             alt:'The logo for The Community Science Museum of Oslo, used in the semester project 1',
         },
         link: {
-            repo: '',
-            deploy: '',
+            repo: 'https://github.com/ReZvanYY/Semester-project-Noroff',
+            deploy: 'https://rezvanyy.github.io/Semester-project-Noroff/',
         },
     },
     {
@@ -109,8 +109,8 @@ export const projects = [
             alt:'The logo for Rainy Days. Used for the cross course project 1',
         },
         link: {
-            repo: '',
-            deploy: '',
+            repo: 'https://github.com/ReZvanYY/html-css-ca-Merat-R',
+            deploy: 'https://rezvanyy.github.io/html-css-ca-Merat-R/HTML/Productpage.html',
         },
     },
 ];
