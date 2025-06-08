@@ -30,7 +30,7 @@ body{
 }
 @media (max-width: 1440px) and (min-width: 1024px){
     body{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
     
     .introduction-container{
